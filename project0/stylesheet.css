@@ -1,7 +1,71 @@
-.table {
-
+h1, h2 {
+  color: red;
+  text-align: center;
 }
 
-.list {
-  
+@media (min-width: 301px) {
+  body {
+    background-color: pink;
+  }
 }
+@media (max-widht: 300px) {
+  body {
+    background-color: grey;
+  }
+}
+#cadeImage {
+  text-align: center;
+  margin: 20px;
+  background-color: green;
+}
+
+#michael, #kobe, #lebron, #karl, #kareem {
+  border: 1px solid black;
+  padding: 10px;
+  margin: auto;
+}
+
+.info, .warning, .secondary {
+  font-family: helvetica;
+  font-size: 20px;
+  font-weight: bold;
+  border: 2px solid black;
+  padding: 25px;
+  margin: 25px;
+}
+
+.secondary {
+  background-color: yellow;
+}
+
+.warning {
+  background-color: purple;
+}
+
+.info {
+  background-color: cyan;
+}
+
+div {
+  font-size: 20px;
+}
+div ul {
+  color: green;
+}
+div a {
+  color: green;
+}
+div p {
+  color: blue;
+  text-align: center;
+}
+div #iron-banner {
+  color: orange;
+}
+
+ol {
+  font-size: 18px;
+  color: green;
+}
+
+/*# sourceMappingURL=stylesheet.css.map */

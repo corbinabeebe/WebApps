@@ -1,0 +1,101 @@
+$color: green;
+$color2: red;
+$color3: pink;
+
+h1, h2 {
+  color: $color2;
+  text-align: center;
+}
+
+@media (min-width: 301px) {
+  body {
+    background-color: $color3;
+  }
+}
+
+@media (max-widht: 300px) {
+  body {
+    background-color: grey;
+  }
+}
+
+#cadeImage {
+  text-align: center;
+  margin: 20px;
+  background-color: $color;
+}
+
+%nbaimages {
+  border: 1px solid black;
+  padding: 10px;
+  margin: auto;
+}
+
+#kareem {
+  @extend %nbaimages;
+}
+
+#karl {
+  @extend %nbaimages;
+}
+
+#lebron {
+  @extend %nbaimages;
+}
+
+#kobe {
+  @extend %nbaimages;
+}
+
+#michael {
+  @extend %nbaimages;
+}
+
+%message {
+  font-family: helvetica;
+  font-size: 20px;
+  font-weight: bold;
+  border: 2px solid black;
+  padding: 25px;
+  margin: 25px;
+}
+
+.secondary {
+  @extend %message;
+  background-color: yellow;
+}
+
+.warning {
+  @extend %message;
+  background-color: purple;
+}
+
+.info {
+  @extend %message;
+  background-color: cyan;
+}
+
+div {
+  font-size: 20px;
+  ul {
+    color: green;
+  }
+
+  a {
+    color: green;
+  }
+
+  p {
+    color: blue;
+    text-align: center;
+  }
+
+  #iron-banner {
+    color: orange;
+  }
+}
+
+ol {
+  font-size: 18px;
+  color: $color;
+}

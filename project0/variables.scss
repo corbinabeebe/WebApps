@@ -1,21 +1,42 @@
 $color: green;
 $color2: red;
-$color3: pink;
+$color3: #FFADDD;
+$color4: #61E17A;
 
 h1, h2 {
   color: $color2;
   text-align: center;
 }
 
-@media (min-width: 301px) {
-  body {
+//sets screens 992px or less to have color3 background
+@media screen and (max-width: 992px) {
+  #index-body {
+    background-color: $color3;
+  }
+  #destiny-body {
+    background-color: $color3;
+  }
+  #table-body {
+    background-color: $color3;
+  }
+  #photos-body {
     background-color: $color3;
   }
 }
 
-@media (max-widht: 300px) {
-  body {
-    background-color: grey;
+//sets screens 600px or less to have color4 background
+@media screen and (min-width: 600px) {
+  #index-body {
+    background-color: $color4;
+  }
+  #destiny-body {
+    background-color: $color4;
+  }
+  #table-body {
+    background-color: $color4;
+  }
+  #photos-body {
+    background-color: $color4;
   }
 }
 
@@ -91,7 +112,7 @@ div {
   }
 
   #iron-banner {
-    color: orange;
+    color: #C1790A;
   }
 }
 

@@ -3,14 +3,38 @@ h1, h2 {
   text-align: center;
 }
 
-@media (min-width: 301px) {
-  body {
-    background-color: pink;
+@media screen and (max-width: 992px) {
+  #index-body {
+    background-color: #FFADDD;
+  }
+
+  #destiny-body {
+    background-color: #FFADDD;
+  }
+
+  #table-body {
+    background-color: #FFADDD;
+  }
+
+  #photos-body {
+    background-color: #FFADDD;
   }
 }
-@media (max-widht: 300px) {
-  body {
-    background-color: grey;
+@media screen and (min-width: 600px) {
+  #index-body {
+    background-color: #61E17A;
+  }
+
+  #destiny-body {
+    background-color: #61E17A;
+  }
+
+  #table-body {
+    background-color: #61E17A;
+  }
+
+  #photos-body {
+    background-color: #61E17A;
   }
 }
 #cadeImage {
@@ -60,7 +84,7 @@ div p {
   text-align: center;
 }
 div #iron-banner {
-  color: orange;
+  color: #C1790A;
 }
 
 ol {
